@@ -1,4 +1,4 @@
-package homework;
+package homework2;
 
 public abstract class Flour {
     private String name;

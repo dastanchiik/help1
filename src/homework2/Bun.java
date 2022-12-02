@@ -1,4 +1,4 @@
-package homework;
+package homework2;
 
 public class Bun extends Flour implements Bakedable{
     public Bun(String name) {

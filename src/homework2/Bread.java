@@ -1,4 +1,4 @@
-package homework;
+package homework2;
 
 public class Bread extends Flour implements Bakedable{
 
