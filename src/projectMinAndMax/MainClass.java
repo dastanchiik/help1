@@ -1,4 +1,4 @@
-package project;
+package projectMinAndMax;
 
 import java.util.Scanner;
 
@@ -8,7 +8,8 @@ public class MainClass {
         method(scanner.nextInt(), scanner.nextInt());
     }
     public static void method(int min,int max){
-        int number = Math.max(min, max);
-        System.out.println(number);
+        int numberMax = Math.max(min, max);
+        int numberMin = Math.min(min, max);
+        System.out.println("Max Number: "+numberMax+"\n"+"Min Number: "+numberMin);
     }
 }
