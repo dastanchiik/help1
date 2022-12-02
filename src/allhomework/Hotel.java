@@ -12,7 +12,7 @@ public class Hotel extends Person implements Money{
 
     @Override
     public String toString() {
-        return "Hotel{}"+
+        return " Hotel: "+
                 super.toString();
     }
 }

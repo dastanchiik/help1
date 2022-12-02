@@ -15,5 +15,4 @@ public class HomeworkMain {
         System.out.println(hotel+"\n"+hotel1);
         hotel.money();
     }
-
 }
