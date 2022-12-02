@@ -2,9 +2,9 @@ package newpackage.Zoom;
 
 public class Main {
     public static void main(String[] args) {
-//        method();
-//    }
-//    public static void method(){
+        method();
+    }
+    public static void method(){
         Shark shark = new Shark("Genri");
         Shark shark1 = new Shark("Gozu kyishyk");
         Shark shark2 = new Shark("Bety kara");
