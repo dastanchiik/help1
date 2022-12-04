@@ -1,5 +1,3 @@
-package allhomework;
-
 public abstract class Person {
     private String address;
     private String name;

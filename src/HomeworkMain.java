@@ -1,5 +1,3 @@
-package allhomework;
-
 public class HomeworkMain {
     public static void main(String[] args) {
     Flat flat = new Flat("Sadyr",67,"male","Toktogula 32");

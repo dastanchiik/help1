@@ -1,6 +1,4 @@
-package allhomework;
-
-public class Hostel extends Person implements Money{
+public class Hostel extends Person implements Money {
     public Hostel(String name, int age, String gender,String address) {
         super(name, age, gender, address);
     }

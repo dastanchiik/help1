@@ -1,6 +1,4 @@
-package allhomework;
-
-public class Flat extends Person implements Money{
+public class Flat extends Person implements Money {
     public Flat(String name, int age, String gender, String address) {
         super(name, age, gender, address);
     }
