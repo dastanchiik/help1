@@ -21,6 +21,8 @@ public class MainHomework {
             System.out.println(Week.Saturday.getWhat());
         } else if (Objects.equals(name,Week.Sunday.name())) {
             System.out.println(Week.Sunday.getWhat());
+
+
         }
     }
 }
