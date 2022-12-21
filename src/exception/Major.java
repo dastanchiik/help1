@@ -14,7 +14,6 @@ public class Major {
         System.out.print("Enter age:");
         int age = scanner.nextInt();
         }catch (Exception e){
-//            System.out.println(e.getMessage());
             System.out.println("\n wrong");
         }
     }
