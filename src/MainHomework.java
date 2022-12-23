@@ -10,7 +10,7 @@ public class MainHomework {
         Scanner scanner = new Scanner(System.in);
         Cat cat = new Cat(name, age);
         if (cat.age()<0) {
-            System.out.println(cat.name());
+            System.out.println("cat name: "+cat.name()+"cat age is negative");
         }else {
             System.out.println(cat);
         }
