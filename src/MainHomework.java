@@ -5,9 +5,10 @@ public class MainHomework {
         Scanner scanner = new Scanner(System.in);
         method();
     }
+
     public static void method() {
-       Scanner scanner = new Scanner(System.in);
-       Cat cat = new Cat(scanner.next(), scanner.nextInt());
+        Scanner scanner = new Scanner(System.in);
+        Cat cat = new Cat(scanner.next(), scanner.nextInt());
 
     }
 }
