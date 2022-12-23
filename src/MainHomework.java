@@ -9,6 +9,5 @@ public class MainHomework {
     public static void method() {
         Scanner scanner = new Scanner(System.in);
         Cat cat = new Cat(scanner.next(), scanner.nextInt());
-
     }
 }
