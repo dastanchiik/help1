@@ -3,7 +3,7 @@ import java.math.BigInteger;
 public class MainHomework {
     public static void main(String[] args) {
         int a = -123;
-        System.out.println(multiply("jsbfksja","sjdbfa"));
+        System.out.println(multiply("",""));
     }
     public static String multiply(String num1, String num2) {
         BigInteger bigInteger = new BigInteger(num1);
