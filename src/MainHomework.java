@@ -1,13 +1,14 @@
-import java.math.BigInteger;
 
 public class MainHomework {
     public static void main(String[] args) {
         int a = -123;
+        char[] chars = new char[]{};
+        reverseString(chars);
     }
-    public int reverseBits(int n) {
-        return Integer.reverse(n);
+    public static void reverseString(char[] s) {
 
-        //        StringBuilder stringBuilder = new StringBuilder();
+        System.out.println( new StringBuilder(String.valueOf(s)).reverse());
+    //        StringBuilder stringBuilder = new StringBuilder();
 //        char[] chars = String.valueOf(a).toCharArray();
 //        for (int i = chars.length - 1; i >= 0; i--) {
 //            stringBuilder.append(chars[i]);
