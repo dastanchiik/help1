@@ -1,11 +1,14 @@
+import java.math.BigInteger;
+
 public class MainHomework {
     public static void main(String[] args) {
         int a = -123;
-        System.out.println(method(a));
+        System.out.println(multiply("jsbfksja","sjdbfa"));
     }
-    public static int method(int a) {
-        int q = (int)Math.sqrt(a);
-        return q;
+    public static String multiply(String num1, String num2) {
+        BigInteger bigInteger = new BigInteger(num1);
+        BigInteger d = bigInteger.multiply(BigInteger.valueOf(Long.parseLong(num2)));
+        return String.valueOf(d);
         //        StringBuilder stringBuilder = new StringBuilder();
 //        char[] chars = String.valueOf(a).toCharArray();
 //        for (int i = chars.length - 1; i >= 0; i--) {
