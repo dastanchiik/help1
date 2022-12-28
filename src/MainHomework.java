@@ -2,12 +2,11 @@
 public class MainHomework {
     public static void main(String[] args) {
         int a = -123;
-        char[] chars = new char[]{};
-        reverseString(chars);
     }
-    public static void reverseString(char[] s) {
+    public boolean isMatch(String s, String p) {
+       return true;
 
-        System.out.println( new StringBuilder(String.valueOf(s)).reverse());
+//        System.out.println( new StringBuilder(String.valueOf(s)).reverse());
     //        StringBuilder stringBuilder = new StringBuilder();
 //        char[] chars = String.valueOf(a).toCharArray();
 //        for (int i = chars.length - 1; i >= 0; i--) {
