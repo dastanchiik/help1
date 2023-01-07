@@ -5,7 +5,6 @@ public class MainHomework {
         int a = -123;
     }
     public void isMatch(ArrayList<Integer> list, String p) {
-//        ArrayList<Integer>list = new ArrayList<>();
         list.stream().filter(x -> false).forEach(System.out::println);
     }
 }
